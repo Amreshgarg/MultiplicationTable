@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+#body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    height:auto;
+    /* border: 2px solid red; */
+    background: rgb(9,7,57);
+    background: linear-gradient(90deg, rgba(9,7,57,1) 0%, rgba(33,97,203,1) 100%);
+    
+}
+#body h1{
+    position: fixed;
+    text-align: center;
+    top: 0px;
+    color: #00dcff;
+}
+#main{
+    width: 50%;
+    min-height: 60vh;
+    height: auto;
+    border: 2px solid black;
+    background: rgb(18,42,98);
+    background: linear-gradient(90deg, rgba(18,42,98,1) 0%, rgba(51,222,214,1) 100%);
+}
+#main h5{
+    text-align: center;
+    font-size: 35px;
+    color:#00ffff;
+}
+#form{
+    
+}
+#inputNumber{
+    display: inline-block;
+    width: 230px;
+    height: 46px;
+    margin-left: 158px;
+    background: rgb(9,7,57);
+    background: linear-gradient(90deg, rgb(60, 156, 219) 0%, rgba(33,97,203,1) 100%);
+    font-size: 28px;
+    color: #ffffff;
+}
+#inputNumber:active{
+    font-weight: 900;
+    border:2px solid darkslateblue;
+}
+#btnSubmit{
+    display: inline-block;
+    height: 36px;
+    width: 84px;
+    cursor: pointer;
+    background-color: rgb(105, 175, 255);
+    font-size: 20px;
+    padding-top: 12px;
+    padding-left: 8px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+#btnSubmit:active{
+    font-weight: 900;
+    
+}
+#result{
+    overflow: auto;
+    font-size: 26px;
+    font-weight: 900;
+    padding-left: 80px;
+    word-spacing: 18px;
+    padding-bottom: 26px;
+    color:#add9d1;
+}
+/* #form{
+    
+}
+#main{
+
+}
+#inputNumber{
+} */
